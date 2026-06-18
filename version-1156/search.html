@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-最新电影大全-最新影片合集-精选内容持续更新</title>
+    <meta name="description" content="搜索最新电影大全全站影片，支持片名、地区、类型、年份与标签关键词。">
+    <meta name="keywords" content="最新电影大全,最新影片合集,电影更新,精选内容,热门电影,电影片库,新电影,影片搜索">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="影片搜索-最新电影大全-最新影片合集-精选内容持续更新">
+    <meta property="og:description" content="搜索最新电影大全全站影片，支持片名、地区、类型、年份与标签关键词。">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="最新电影大全">
+                <span class="brand-mark" aria-hidden="true">▶</span>
+                <span class="brand-text">最新电影大全</span>
+            </a>
+            <nav class="main-nav" aria-label="主导航">
+                <a href="index.html">首页</a>
+                <a href="categories.html">分类总览</a>
+                    <a href="category/drama.html">剧情片</a>
+                    <a href="category/comedy.html">喜剧片</a>
+                    <a href="category/romance.html">爱情片</a>
+                    <a href="category/suspense.html">悬疑惊悚</a>
+                    <a href="category/sci-fi.html">科幻奇幻</a>
+                    <a href="category/action.html">动作冒险</a>
+                <a href="ranking.html">排行榜</a>
+            </nav>
+            <form class="header-search" action="search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开菜单">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-panel" data-mobile-panel>
+            <form class="mobile-search" action="search.html" method="get">
+                <input type="search" name="q" placeholder="搜索影片标题、类型、地区">
+                <button type="submit">搜索</button>
+            </form>
+            <nav class="mobile-nav" aria-label="移动端导航">
+                <a href="index.html">首页</a>
+                <a href="categories.html">分类总览</a>
+                    <a href="category/drama.html">剧情片</a>
+                    <a href="category/comedy.html">喜剧片</a>
+                    <a href="category/romance.html">爱情片</a>
+                    <a href="category/suspense.html">悬疑惊悚</a>
+                    <a href="category/sci-fi.html">科幻奇幻</a>
+                    <a href="category/action.html">动作冒险</a>
+                    <a href="category/history.html">战争历史</a>
+                    <a href="category/animation.html">动画儿童</a>
+                    <a href="category/documentary.html">纪录综艺</a>
+                    <a href="category/featured.html">其他精选</a>
+                <a href="ranking.html">排行榜</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container search-hero">
+                <span class="eyebrow">全站搜索</span>
+                <h1 data-search-title>影片搜索</h1>
+                <p>输入片名、地区、类型、年份或标签，快速检索全站 2000 部影片。</p>
+                <form action="search.html" method="get">
+                    <input type="search" name="q" placeholder="例如：科幻、爱情、2025、美国">
+                    <button class="btn-primary" type="submit">搜索</button>
+                </form>
+                <p class="pagination-note" data-search-note></p>
+            </div>
+        </section>
+
+        <section class="section section-soft">
+            <div class="container">
+                <div class="movie-grid" data-search-results data-prefix=""></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="footer-brand">
+                    <span class="brand-mark" aria-hidden="true">▶</span>
+                    <span>最新电影大全</span>
+                </div>
+                <p>聚合最新电影大全栏目内容，包含近期更新影片、热门片单与多类型电影分类。</p>
+                <p class="footer-small">全站共收录 2000 部影片，覆盖多地区、多类型与持续更新片单。</p>
+            </div>
+            <div>
+                <h3>影片分类</h3>
+                <ul>
+                    <li><a href="category/drama.html">剧情片</a></li>
+                    <li><a href="category/comedy.html">喜剧片</a></li>
+                    <li><a href="category/romance.html">爱情片</a></li>
+                    <li><a href="category/suspense.html">悬疑惊悚</a></li>
+                    <li><a href="category/sci-fi.html">科幻奇幻</a></li>
+                    <li><a href="category/action.html">动作冒险</a></li>
+                    <li><a href="category/history.html">战争历史</a></li>
+                    <li><a href="category/animation.html">动画儿童</a></li>
+                    <li><a href="category/documentary.html">纪录综艺</a></li>
+                    <li><a href="category/featured.html">其他精选</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>快捷入口</h3>
+                <ul>
+                    <li><a href="index.html">首页推荐</a></li>
+                    <li><a href="ranking.html">热门排行榜</a></li>
+                    <li><a href="search.html">影片搜索</a></li>
+                    <li><a href="categories.html">全部分类</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>站点信息</h3>
+                <p>聚合最新影片合集与热门电影片库，提供清晰的分类浏览、详情介绍与相关推荐。</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 最新电影大全</span>
+        </div>
+    </footer>
+    <script src="assets/js/movie-data.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
